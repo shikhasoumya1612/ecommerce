@@ -1,0 +1,48 @@
+.order-item-list {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.order-item-list::-webkit-scrollbar {
+    width: 7px;
+}
+
+
+.order-item-list::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+}
+
+
+.order-item-list::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: black;
+}
+
+.order {
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.order-details-head {
+    font-family: "Poppins";
+    font-size: 12px;
+    color: #656565;
+    padding: 0px;
+    margin-bottom: 7px;
+}
+
+.order-details-body {
+    font-family: "Poppins";
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+
+.order-div {
+    border-radius: 7px;
+    border: 1px solid #e0e0e0;
+}

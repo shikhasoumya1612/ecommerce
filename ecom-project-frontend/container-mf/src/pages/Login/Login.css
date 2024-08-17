@@ -1,0 +1,26 @@
+.login-img img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.welcome-message {
+  font-size: 24px;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.register-message {
+  font-size: 12px;
+  font-family: "Poppins";
+
+}
+
+.register-message span {
+  font-size: 12px;
+  font-family: "Poppins";
+  color: black;
+}
+
+.register-message span:hover {
+  text-decoration: underline;
+}

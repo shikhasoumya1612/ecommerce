@@ -1,0 +1,51 @@
+.cart-items {
+    border-radius: 15px;
+}
+
+.cart-summary .title {
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.cart-summary-final {
+    font-weight: 500;
+}
+
+.cart-checkout-btn {
+    font-family: "Poppins";
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #000000;
+    /* Black */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.out-of-stock-btn {
+    opacity: 0.5;
+}
+
+.bold {
+    font-weight: 500;
+}

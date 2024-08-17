@@ -1,0 +1,53 @@
+.filters {
+  position: sticky;
+  top: 90px;
+}
+
+.filter-categories {
+  font-family: "Poppins";
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.selected {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: underline;
+
+}
+
+.filter-genders {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.filter-gender {
+  font-family: "Poppins";
+  font-size: 14px;
+}
+
+.price input {
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+@media screen and (min-width: 1600px) {
+  .filter-categories {
+    font-size: 16px;
+  }
+
+  .selected {
+    font-size: 20px;
+  }
+
+  .filter-genders {
+    font-size: 20px;
+  }
+
+  .filter-gender {
+    font-size: 16px;
+  }
+}

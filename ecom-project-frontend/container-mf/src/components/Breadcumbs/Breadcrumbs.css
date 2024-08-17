@@ -1,0 +1,11 @@
+.breadcrumb-item a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Poppins";
+  text-transform: capitalize;
+}
+
+.breadcrumb-item a:hover {
+  color: grey;
+}

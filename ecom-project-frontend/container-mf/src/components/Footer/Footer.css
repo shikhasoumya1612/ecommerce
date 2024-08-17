@@ -1,0 +1,31 @@
+.footer {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.head {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.links {
+    font-size: 12px;
+    font-family: "Poppins";
+}
+
+.links p {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.links .bi:hover {
+    padding: 0px;
+    margin: 0px;
+    color: rgb(84, 84, 84);
+
+}
+
+.links p:hover {
+    text-decoration: underline;
+}

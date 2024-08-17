@@ -1,0 +1,13 @@
+.not-found p {
+  display: block;
+  font-size: 18px;
+  font-family: "Poppins";
+}
+
+.not-found p span {
+  font-weight: 600;
+}
+
+.not-found img {
+  width: 300px;
+}

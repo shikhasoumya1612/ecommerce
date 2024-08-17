@@ -1,0 +1,54 @@
+.header {
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.4) 0px 0px 8px 0px;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+.header-logo {
+  margin: auto 0px;
+}
+
+.header-logo img {
+  width: 30px;
+}
+
+.header-links p {
+  font-family: "Poppins";
+  font-size: 16px;
+  cursor: pointer;
+  align-items: center;
+  margin: auto 0px;
+}
+
+.header-links p:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+.header-profile .avatar-img {
+  width: 40px;
+}
+
+.header-profile .cart-img {
+  width: 35px;
+  height: 35px;
+}
+
+@media screen and (min-width: 1600px) {
+  .header-logo img {
+    width: 80px;
+  }
+
+  .header-links p {
+    font-family: "Poppins";
+    font-size: 18px;
+    cursor: pointer;
+  }
+}
+
+.cart-img-down {
+  opacity: 0.5;
+
+}

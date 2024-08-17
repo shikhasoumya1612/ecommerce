@@ -1,0 +1,35 @@
+.avatars img {
+    border-radius: 50%;
+    width: 80px;
+    margin: 0px auto;
+}
+
+.avatars-modal img {
+    border-radius: 50%;
+    width: 60px;
+    margin: 0px auto;
+}
+
+.user-role {
+    font-family: "Poppins";
+    font-size: 16px;
+}
+
+.card-title {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.profile-address {
+    padding: 25px 10px;
+    border-radius: 7px;
+    border: 1px solid #e0e0e0;
+
+}
+
+.profile-address .title {
+    font-family: "Poppins";
+    font-size: 16px;
+}

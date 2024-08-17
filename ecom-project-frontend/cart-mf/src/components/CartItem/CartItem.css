@@ -1,0 +1,50 @@
+.cart-item {
+    margin: 15px 0px;
+
+}
+
+.out-of-stock-full {
+    opacity: 0.5
+}
+
+.cart-item-img {
+    width: 130px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.cart-item-name {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cart-item-quantity {
+    font-size: 14px;
+}
+
+.cart-item-quantity button {
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.cart-item-quantity button:hover {
+    background-color: #f4f4f4;
+}
+
+.cart-item-price {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.out-of-stock {
+    color: red;
+    font-size: 12px;
+    opacity: 1;
+    font-weight: 500;
+}
+
+.out-of-stock-btn {
+    opacity: 0.5;
+}

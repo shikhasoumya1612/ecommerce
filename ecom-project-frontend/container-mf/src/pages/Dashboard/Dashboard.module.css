@@ -1,0 +1,245 @@
+/* Top banner */
+
+.shoe {
+  margin-top: 25px;
+  width: 600px;
+}
+
+.bg {
+  height: 600px;
+}
+
+.content {
+  height: 600px;
+  align-items: center;
+}
+
+.shoe-container {
+  transition: all 0.5s ease-in-out;
+}
+
+.shoe-container.COMFORT {
+  background-color: #8f1ca3;
+  background: linear-gradient(165deg, #8f1ca3, #8f1ca3 60%, white 60%, white);
+}
+
+.shoe-container.STYLE {
+  background-color: #00ffff;
+  background: linear-gradient(165deg, #00ffff, #00ffff 60%, white 60%, white);
+}
+
+.shoe-container.DURABLITY {
+  background-color: #ff69b4;
+  background: linear-gradient(165deg, #ff69b4, #ff69b4 60%, white 60%, white);
+}
+
+.banner-name {
+  font-family: "Dancing Script";
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.banner-name-top {
+  color: white;
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 80px;
+  padding-left: 150px;
+  margin-bottom: 0px;
+}
+
+.banner-name-bottom {
+  color: #8f1ca3;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 150px;
+  float: right;
+  padding-right: 150px;
+}
+
+/* Player section */
+
+.players p {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Poppins";
+  color: "#d3d3d3";
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.players-img {
+  height: 200px;
+  transition: transform 0.5s ease;
+}
+
+.players-img:hover {
+  transform: scale(1.05);
+}
+
+.player-title {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: "#d3d3d3";
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 0.8;
+}
+
+.player-description {
+  font-size: 12px;
+}
+
+/* Category card */
+
+.category-card {
+  position: relative;
+  margin-top: 25px;
+  width: 250px;
+}
+
+.category-card-img {
+  width: 250px;
+  border-radius: 15px;
+}
+
+.category-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+  border-radius: 7px;
+}
+
+.category-card:hover .category-card-overlay {
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.category-card-title {
+  top: 45px;
+  left: 20px;
+  opacity: 0;
+  font-size: 20px;
+  font-family: "Poppins";
+  position: absolute;
+  color: white;
+  z-index: 1;
+  transition: opacity 0.5s ease;
+}
+
+.famous-slots {
+  width: 30%;
+}
+
+.category-card:hover .category-card-title {
+  opacity: 1;
+}
+
+.category-card-button {
+  position: absolute;
+  left: 120px;
+  bottom: 25px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.category-card-button button {
+  border-radius: 7px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 12px;
+  font-family: "Poppins";
+  padding: 6px 15px;
+  z-index: 1;
+}
+
+.category-card-button button:hover {
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.category-card:hover .category-card-button {
+  opacity: 1;
+}
+
+/* About section */
+
+.about-img {
+  width: 600px;
+}
+
+.about-description {
+  padding-top: 4rem;
+  font-family: "Poppins";
+  font-size: 14px;
+}
+
+/* Media query */
+
+@media screen and (min-width: 1600px) {
+  .shoe {
+    padding-top: 120px;
+    width: 900px;
+  }
+
+  .bg {
+    height: 950px;
+  }
+
+  .banner-name-top {
+    font-size: 130px;
+  }
+
+  .players p {
+    font-size: 60px;
+  }
+
+  .player-description {
+    font-size: 16px;
+  }
+
+  .player-title {
+    font-size: 24px;
+  }
+
+  .about-img {
+    width: auto;
+  }
+
+  .about-description {
+    padding-top: 6rem;
+    font-family: "Poppins";
+    font-size: 18px;
+  }
+
+  .category-card-img {
+    width: 400px;
+  }
+
+  .category-card {
+    width: 400px;
+  }
+
+  .category-card-title {
+    top: 90px;
+    left: 40px;
+    font-size: 28px;
+  }
+
+  .category-card-button {
+    left: 225px;
+    bottom: 50px;
+  }
+
+  .category-card-button button {
+    font-size: 16px;
+    padding: 8px 25px;
+  }
+}

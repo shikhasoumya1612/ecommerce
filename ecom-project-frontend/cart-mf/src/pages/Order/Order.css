@@ -1,0 +1,77 @@
+.order-items {
+    border-radius: 15px;
+}
+
+
+.order-items .title {
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 500
+}
+
+.order-items .title span {
+    font-size: 20px;
+    font-family: "Poppins";
+    color: green;
+    font-weight: 500
+}
+
+.order-summary .title {
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.order-summary-final {
+    font-weight: 500;
+}
+
+.order-address {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.order-item-list {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.order-address::-webkit-scrollbar-track,
+.order-item-list::-webkit-scrollbar {
+    width: 7px;
+}
+
+.order-address::-webkit-scrollbar-track,
+.order-item-list::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+}
+
+.order-address::-webkit-scrollbar-track,
+.order-item-list::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: black;
+}
+
+.checkout {
+    position: fixed;
+    z-index: 1;
+    bottom: 0px;
+    background-color: white;
+    width: 100%;
+}
+
+.delivery-card {
+    width: 1000px;
+}
+
+.delivery-date {
+    color: green;
+}
+
+.order-item-list {
+    padding-bottom: 50px;
+}

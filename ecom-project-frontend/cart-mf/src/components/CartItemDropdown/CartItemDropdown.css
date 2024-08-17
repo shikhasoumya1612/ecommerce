@@ -1,0 +1,40 @@
+.cart-item-dropdown-img {
+    width: 80px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.cart-item-dropdown-name {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cart-item-dropdown-quantity {
+    font-size: 12px;
+}
+
+.cart-item-dropdown-price {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #000000;
+    /* Black */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

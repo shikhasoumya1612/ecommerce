@@ -1,0 +1,24 @@
+.order-item-img {
+    width: 80px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.order-item-name {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.order-item-quantity {
+    font-size: 12px;
+}
+
+.order-item-price {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.order-delivery {
+    color: green;
+}

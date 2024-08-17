@@ -1,0 +1,18 @@
+.address {
+    cursor: pointer;
+}
+
+.selected {
+    border: 1px solid black;
+}
+
+.address-title {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.address-text {
+    font-size: 12px;
+    font-family: "Poppins";
+}

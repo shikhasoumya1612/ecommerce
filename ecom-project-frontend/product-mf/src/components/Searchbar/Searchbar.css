@@ -1,0 +1,35 @@
+.search-bar {
+  background-color: #f8f9fa;
+  border-radius: 7px;
+  max-width: 300px;
+  border: 1px solid #e0e0e0;
+}
+
+.search-bar input {
+  box-shadow: 0 0 0 rgb(255, 255, 255);
+  border: none;
+}
+
+.search-bar input:focus {
+  box-shadow: 0 0 0 rgb(255, 255, 255);
+}
+
+.search-bar input:focus {
+  box-shadow: 0 0 0 rgb(255, 255, 255);
+}
+
+.search-icon,
+.clear-icon {
+  border: none;
+  color: #495057;
+}
+
+.search-icon:hover,
+.clear-icon:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+
+.clear-icon {
+  background-color: white;
+}
